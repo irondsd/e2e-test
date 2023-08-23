@@ -1,16 +1,17 @@
 {
-  "name": "test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "ts-node src/index.ts"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@types/node": "^20.5.2",
-    "playwright": "^1.37.1",
-    "ts-node": "^10.9.1"
-  }
+    "name": "test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "npx playwright test"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@playwright/test": "^1.37.1",
+        "@types/node": "^20.5.2",
+        "playwright": "^1.37.1",
+        "ts-node": "^10.9.1"
+    }
 }
